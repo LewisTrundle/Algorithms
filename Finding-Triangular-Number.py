@@ -26,8 +26,8 @@ def solution(x, y):
     return(str(id_no))
     
     
-ID = solution(3, 2)
+ID = solution(3, 2)     # should print 9
 print(ID)
 
-ID = solution(5, 10)
+ID = solution(5, 10)    # should print 96
 print(ID)

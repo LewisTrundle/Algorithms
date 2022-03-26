@@ -1,4 +1,5 @@
-""" The Bellman-Ford algorithm can be used to find the shortest path through all nodes in a 
+""" 
+The Bellman-Ford algorithm can be used to find the shortest path through all nodes in a 
 weighted graph with negative weights 
 There are 3 steps: 
 1)  Set the distance from the source node to every other node as infinity

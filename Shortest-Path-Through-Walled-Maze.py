@@ -1,3 +1,20 @@
+"""
+A maze is represented as a matrix of 0s and 1s, where 0s are passable space and 1s are impassable walls. 
+The entrance is at the top left (0,0) and the exit is at the bottom right (w-1,h-1).
+
+This algorithm generates the length of the shortest path from the entrance to the exit.
+It allows for 1 wall to be removed during the path finding. 
+A BFS is used to find the shortest path.
+
+The path length is the total number of nodes passed through, counting both the entrance and exit nodes. 
+- The starting and ending positions are always passable (0). 
+- The map will always be solvable, though you may or may not need to remove a wall. 
+- The height and width of the map can be from 2 to 20. 
+- Moves can only be made in cardinal directions.
+- No diagonal moves are allowed.
+"""
+
+
 class Space:
     def __init__(self, x, y, moves, wall_destroyed):
         self.x = x
